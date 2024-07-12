@@ -1,0 +1,10 @@
+<div class="item-container">
+    <ul *ngFor="let item of items">
+        <div class="sub-item">
+            <img src={{item.image.url}}>
+            <li class="limited-text">{{item.title}}</li>
+            <li class="normal-price">R$ {{item.price}}</li>
+            <li *ngIf="item.market_price <= item.price" class="market-price">R$ {{item.market_price}}</li>
+        </div>
+    </ul> 
+</div>

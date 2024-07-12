@@ -1,0 +1,25 @@
+<div class="main">
+    <ul>
+        <div class="text-title">{{items.title}}</div>
+        <div class="horizontal-container">
+            <div class="gallery-container">
+                <div class="image-wrapper" [style.transform]="transformStyle">
+                    <img *ngFor="let image of items.images" src={{image.url}} class="gallery-image">
+                </div>
+                <div class="button-container">
+                    <button (click)="previousImage()">Anterior</button>
+                    <button (click)="nextImage()">Próxima</button>
+                </div>
+            </div>
+            <div class="details-container">
+                <p class="simple-text">Opções a partir de</p>
+                <p><span class="simple-text">R$ </span><span class="highlight-title"> {{items.price}}</span></p>
+                <button>Comprar</button>
+            </div>
+        </div>
+        <div>
+            <p>Detalhes da Oferta</p>
+            <div class="column-container" [innerHTML]="items.description"></div>
+        </div>
+    </ul>
+</div>
