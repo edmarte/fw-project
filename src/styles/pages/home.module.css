@@ -1,0 +1,55 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.listContainer1{
+    width: auto;
+    height: auto;
+    background-color: #393241;
+
+}
+
+.listContainer2{
+    width: auto;
+    height: auto;
+    padding-bottom: 0px;
+
+}
+
+.itemContainer{
+    width: auto;
+    height: auto;
+    display: flex;
+    overflow-x: auto;
+}
+
+.itemContainer li{
+    padding-right: 5%;
+    list-style-type: none;
+}
+
+.titleContainer{
+    margin: 50px auto;
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    color: #9370DB;
+}
+
+::-webkit-scrollbar{
+    width: 1px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 5px #8A2BE2;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #8A2BE2;
+    border-radius: 10px;
+}

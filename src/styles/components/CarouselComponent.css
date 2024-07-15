@@ -1,0 +1,14 @@
+.carousel .control-arrow {
+    background: rgba(0, 0, 0, 0.5);
+    width: 50px;
+    height: auto;
+    z-index: 2;
+  }
+  
+  .carousel .control-next.control-arrow {
+    right: 10px;
+  }
+  
+  .carousel .control-prev.control-arrow {
+    left: 10px;
+  }

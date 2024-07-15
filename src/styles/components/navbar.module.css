@@ -1,0 +1,33 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.navBar{
+    background-color: #8A2BE2;
+}
+
+.navList{
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navList img{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.shoppingButton{
+    padding-top: 20px;
+    padding-right: 20px;
+    color: #FFFFFF;
+}
+
+.shoppingButton:hover{
+    color: #D3D3D3;
+    cursor: pointer;
+}
